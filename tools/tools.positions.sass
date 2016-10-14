@@ -6,21 +6,28 @@
   **/
 
 
-=position-full
-  top: 0
-  right: 0
-  bottom: 0
-  left: 0
+=position-full($important: false)
+  $important-rule: if( $important, !important, null )
+  top: 0 $important-rule
+  right: 0 $important-rule
+  bottom: 0 $important-rule
+  left: 0 $important-rule
 
-=position-perfect-center
-  top: 50%
-  left: 50%
-  transform: translateX(-50%) translateY(-50%)
 
-=position-vertical-center
-  top: 50%
-  transform: translateY(-50%)
+=position-perfect-center($important: false)
+  $important-rule: if( $important, !important, null )
+  top: 50% $important-rule
+  left: 50% $important-rule
+  transform: translateX(-50%) translateY(-50%) $important-rule
 
-=position-horizontal-center
-  left: 50%
-  transform: translateX(-50%)
+
+=position-vertical-center($important: false)
+  $important-rule: if( $important, !important, null )
+  top: 50% $important-rule
+  transform: translateY(-50%) $important-rule
+
+
+=position-horizontal-center($important: false)
+  $important-rule: if( $important, !important, null )
+  left: 50% $important-rule
+  transform: translateX(-50%) $important-rule

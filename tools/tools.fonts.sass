@@ -6,8 +6,9 @@
   **/
 
 
+=Sample-Font($important: false)
+  $important-rule: if( $important, !important, null )
 
-=Sample-Font
-  font-family: sans-serif
+  font-family: sans-serif $important-rule
   font-style: normal
   font-weight: 400
