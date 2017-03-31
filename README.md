@@ -38,7 +38,11 @@ Within the Augmented-ITCSS Framework, there are different directories based upon
 
 
 * **Frameworks Scope**
-  * Similarly the the "Module Scope", the "Frameworks Scope" was created for layout specific modules. This creates a separation of powers between the modules and their frameworks, which will allow the freedom to pair frameworks and modules at your heart's content.
+  * Similarly to the "Module Scope", the "Frameworks Scope" was created for layout specific modules. This creates a separation of powers between the modules and their frameworks, which will allow the freedom to pair frameworks and modules at your heart's content.
+
+
+* **Building Blocks**
+  * Similarly the the "Module Scope", the "Building Blocks Scope" was created for tiny reusable pieces that can be used within the website. This creates a further separation of powers between the modules and the most common and reusable pieces within a website UI.
 
 
 _[Back to top](#table-of-contents)_
@@ -105,10 +109,10 @@ _[Back to top](#table-of-contents)_
 ***
 
 
-### Modules & Frameworks Scope's ITCSS - Basic Overview:
-Lets talk about the purpose of each layer within the itcss "Modules" and "Frameworks" Scope's architecture.
+### Building Blocks, Modules & Frameworks Scope's ITCSS - Basic Overview:
+Lets talk about the purpose of each layer within the itcss "Building Blocks", "Modules" & "Frameworks" Scope's architecture.
 
-All "Modules" and "Frameworks" Scope's could all have any of the options listed in the "Global Scope's" description above. However, there are a couple additions that are important to note. Note: These are just the ones that pertain to our projects. Feel free to tweak based of your projects needs.
+All "Building Blocks", "Modules" & "Frameworks" Scope's could all have any of the options listed in the "Global Scope's" description above. However, there are a couple additions that are important to note. Note: These are just the ones that pertain to our projects. Feel free to tweak based of your projects needs.
 
 * **OBJECTS**
   *   These are concerned with styling non-cosmetic design patterns, or 'objects'.
