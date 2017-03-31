@@ -30,7 +30,7 @@ _[Back to top](#table-of-contents)_
 Within the Augmented-ITCSS Framework, there are different directories based upon the needs of that specific scope. Feel free to tweak it to best fit your project's needs.
 
 * **Global Scope**
-  * The "Global Scope" is heavily copied from the original idea of the [itcss](http://itcss.io/) created by [Harry Roberts](https://twitter.com/csswizardry).
+  * The "Global Scope" is heavily copied from the original idea of the [itcss](http://itcss.io/) created by [Harry Roberts](https://twitter.com/csswizardry) with a couple added pieces.
 
 
 * **Module Scope**

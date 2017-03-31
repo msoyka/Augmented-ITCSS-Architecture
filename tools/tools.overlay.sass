@@ -1,0 +1,16 @@
+// "overlay" TOOLS - ITCSS Methodology
+
+
+=overlay($color: $primary-color, $opacity: .2, $important: false)
+  $important-rule: if( $important, !important, null )
+  position: relative $important-rule
+
+  &::before
+    content: '' !important
+    position: absolute !important
+    top: 0 !important
+    right: 0 !important
+    bottom: 0 !important
+    left: 0 !important
+    background-color: $color !important
+    opacity: $opacity !important
