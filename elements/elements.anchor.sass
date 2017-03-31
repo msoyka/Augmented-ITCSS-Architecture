@@ -1,0 +1,20 @@
+/**
+  * "anchor" ELEMENTS - ITCSS Methodology
+  *
+  * The Elements layer are style directly associated to the html selectors.
+  *
+  **/
+
+a
+  transition: all .15s linear
+  color: $primary-color
+
+  &:focus
+    outline: 0
+
+  &:hover,
+  &:active
+    color: $secondary-color
+
+  &:hover
+    cursor: pointer
