@@ -1,0 +1,20 @@
+{
+  "name": "Augment-ITCSS",
+  "version": "1.0.0",
+  "description": "This is an augmented css folder structure that originates from the Inverted Triangle CSS architecture originally created to assist in the building of easily scalable code bases that lessens the amount of cognitive overhead.",
+  "main": "index.js",
+  "scripts": {
+    "ds_store": "find . -name '.DS_Store' -type f -delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-soyka/Augment-ITCSS.git"
+  },
+  "keywords": ["css", "Sass", "BEM", "itcss"],
+  "author": "Matthew Soyka <msoyka91@gmail.com> (https://github.com/m-soyka/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-soyka/Augment-ITCSS/issues"
+  },
+  "homepage": "https://github.com/m-soyka/Augment-ITCSS#readme"
+}
