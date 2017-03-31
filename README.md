@@ -1,8 +1,9 @@
 # Augment ITCSS
-This is an augmented css folder structure that originates from the Inverted Triangle CSS architecture orginally created to assist in the building of easily scalable code bases that lessens the amount of cognitive overhead.
+This is an augmented css folder structure that originates from the Inverted Triangle CSS architecture originally created to assist in the building of easily scalable code bases that lessens the amount of cognitive overhead.
 
 ##### Table of Contents
 
+1. [Under the Hood](#under-the-hood)
 1. [Architecture Scopes](#architecture-scopes)
 1. [Global Scope's Basic Overview](#global-scopes-basic-overview)
 1. [Modules & Frameworks Scope's Basic Overview](#modules-frameworks-scopes-basic-overview)
@@ -15,8 +16,18 @@ This is an augmented css folder structure that originates from the Inverted Tria
 ***
 
 
+## Under the Hood
+This css architecture is pretty opinionated and makes use of the following tools:
+* [Sass](http://sass-lang.com/)
+
+_[Back to top](#table-of-contents)_
+
+
+***
+
+
 ## Architecture Scopes
-Within the Augmented-ITCSS Framework, there are different directories based upon the needs of that specific scope. Feel free to tweek it to best fit your project's needs.
+Within the Augmented-ITCSS Framework, there are different directories based upon the needs of that specific scope. Feel free to tweak it to best fit your project's needs.
 
 * **Global Scope**
   * The "Global Scope" is heavily copied from the original idea of the [itcss](http://itcss.io/) created by [Harry Roberts](https://twitter.com/csswizardry).
@@ -37,7 +48,7 @@ _[Back to top](#table-of-contents)_
 
 
 ### Global Scope's ITCSS - Basic Overview:
-Lets talk about the purpose of each layer within the itcss' Global Scope architecture.
+Lets talk about the purpose of each layer within the itcss Global Scope architecture.
 
 * **SETTINGS**
   * The Settings layer does not contain any styles. It only houses variables and other configuration needs.
@@ -56,7 +67,7 @@ Lets talk about the purpose of each layer within the itcss' Global Scope archite
 
 * **UTILITIES**
   * Classes that can be applied to html elements or used within tools and other modules / frameworks to help with DRY coding techniques
-  * Utilities help seperate general global styles to increaases flexiblity and can be added and changed freely.
+  * Utilities help separate general global styles to increases flexibility and can be added and changed freely.
   * Examples: color, font, text-size, padding, align, background, etc.
 
 
@@ -66,23 +77,22 @@ Lets talk about the purpose of each layer within the itcss' Global Scope archite
 
 
 * **BUILDING BLOCKS**
-  * All modules that are the smallest building block pieces that
-  * will be used to create modules and frameworks in the form of macros.
-  * These are simliar to elements, but they are styles using classes, not the html element themselves.
+  * All modules that are the smallest building block pieces that will be used to create modules and frameworks in the form of macros.
+  * These are similar to elements, but they are styles using classes, not the html element themselves.
   * Example: svgs, button, links, ux, inputs, responsive images, etc.
 
 
 * **MODULES**
   * Modules are coding the main coding chunks of the project.
   * These utilize building blocks and custom styles and are placed within frameworks.
-  * These pieces fit inside frameworks, but understanding the seperation can be subjective
+  * These pieces fit inside frameworks, but understanding the separation can be subjective
   * Example: navigation, banner, hero-banner, etc.
 
 
 * **FRAMEWORKS**
-  * Frameworks are pices of code that wrap around modules to ensure they are correctly layed out on the browser window. Generally associated with custom grid.
-  * These pieces fit inside frameworks, but understanding the seperation can be subjective
-  * Example: main-header, main-footer, sidebar, line-break grid, lightbox grid, thirds grid, etc.
+  * Frameworks are pieces of code that wrap around modules to ensure they are correctly laid out on the browser window. Generally associated with custom grid.
+  * These pieces fit inside frameworks, but understanding the separation can be subjective
+  * Example: main-header, main-footer, sidebar, line-break grid, light-box grid, thirds grid, etc.
 
 
 * **TRUMPS**
@@ -96,7 +106,7 @@ _[Back to top](#table-of-contents)_
 
 
 ### Modules & Frameworks Scope's ITCSS - Basic Overview:
-Lets talk about the purpose of each layer within the itcss' "Modules" and "Frameworks" Scope's architecture.
+Lets talk about the purpose of each layer within the itcss "Modules" and "Frameworks" Scope's architecture.
 
 All "Modules" and "Frameworks" Scope's could all have any of the options listed in the "Global Scope's" description above. However, there are a couple additions that are important to note. Note: These are just the ones that pertain to our projects. Feel free to tweak based of your projects needs.
 
@@ -105,7 +115,7 @@ All "Modules" and "Frameworks" Scope's could all have any of the options listed 
 
 
 * **COMPONENTS**
-  * The Components layer is where we begin to style recognisable pieces of UI.
+  * The Components layer is where we begin to style recognizable pieces of UI.
 
 
 * **ANIMATIONS**
