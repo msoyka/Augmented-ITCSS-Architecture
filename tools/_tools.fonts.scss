@@ -1,7 +1,8 @@
 // "Fonts" TOOLS - ITCSS Methodology
 
 
-=Sample-Font
-  font-family: sans-serif
-  font-style: normal
-  font-weight: 400
+@mixin Sample-Font {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}

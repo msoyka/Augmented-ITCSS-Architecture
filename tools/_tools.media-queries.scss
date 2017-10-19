@@ -1,10 +1,14 @@
 // "Media Query" TOOLS - ITCSS Methodology
 
 
-=mq($point)
-	@media (min-width: $point)
-		@content
+@mixin mq($point) {
+  @media (min-width: $point) {
+    @content;
+  }
+}
 
-=max-width-mq($point)
-	@media (max-width: $point)
-		@content
+@mixin max-width-mq($point) {
+  @media (max-width: $point) {
+    @content;
+  }
+}

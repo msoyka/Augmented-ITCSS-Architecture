@@ -1,16 +1,14 @@
 // "Color" SETTINGS - ITCSS Methodology
 
-
 // Base color pallete
 // * This is where we define the root colors
-$white: #fff
-$black: #111111
-$green: #80ff00
-$blue: #0066ff
-
+$white: #fff;
+$black: #111111;
+$green: #80ff00;
+$blue: #0066ff;
 
 // Associated Colors
 // * This is were we associate the root colors to a variable
 // NOTE: These colors are used for asthetics, which generally includes all non-grayscaled colors that allow the website to pop.
-$primary-color: $green
-$secondary-color: $blue
+$primary-color: $green;
+$secondary-color: $blue;

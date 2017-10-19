@@ -1,44 +1,32 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /** ======================================================================================================
-  * Styles via ITCSS Methodology
-  *
-  * This is where all of the stylesheets are compiled.
-  * They are processed in the order they are imported to ensure the consistent increase of specificity.
-  * ====================================================================================================== */
+ * Styles via ITCSS Methodology
+ *
+ * This is where all of the stylesheets are compiled.
+ * They are processed in the order they are imported to ensure the consistent increase of specificity.
+ * ====================================================================================================== */
 
+// SETTINGS
+@import "settings/settings.styles";
 
-// I. SETTINGS
-@import "settings/_settings.styles"
+// TOOLS
+@import "tools/tools.styles";
 
+// GENERIC
+@import "generic/generic.styles";
 
-// II. GENERIC
-@import "generic/_generic.styles"
+// ELEMENTS
+@import "elements/elements.styles";
 
+// COMPONENTS
+@import "components/components.styles";
 
-// III. TOOLS
-@import "tools/_tools.styles"
+// MODULES
+@import "modules/modules.styles";
 
+// LAYOUTS
+@import "layouts/layouts.styles";
 
-// IV. ELEMENTS
-@import "elements/_elements.styles"
-
-
-// V. UTILITIES
-@import "utilities/_utilities.styles"
-
-
-// VI. BUILDING BLOCKS
-@import "buildingblocks/_buildingblocks.styles"
-
-
-// VII. MODULES
-@import "modules/_modules.styles"
-
-
-// VIII. FRAMEWORKS
-@import "frameworks/_frameworks.styles"
-
-
-// IX. TRUMPS
-@import "trumps/_trumps.styles"
+// UTILITIES
+@import "utilities/utilities.styles";

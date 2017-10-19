@@ -2,16 +2,16 @@
 
 
 // Base spacer
-$base-spacer: 1rem
+$base-spacer: 1rem;
 
 // Other Spacers
-$min-spacer: $base-spacer * .25
-$x-small-spacer: $base-spacer * .5
-$small-spacer: $base-spacer * 1
-$medium-spacer: $base-spacer * 2
-$large-spacer: $base-spacer * 3
-$x-large-spacer: $base-spacer * 4
-$max-spacer: $base-spacer * 5
+$min-spacer: $base-spacer * .25;
+$x-small-spacer: $base-spacer * .5;
+$small-spacer: $base-spacer * 1;
+$medium-spacer: $base-spacer * 2;
+$large-spacer: $base-spacer * 3;
+$x-large-spacer: $base-spacer * 4;
+$max-spacer: $base-spacer * 5;
 
 // Associated spacer
-$section-spacer: $max-spacer
+$section-spacer: $max-spacer;
